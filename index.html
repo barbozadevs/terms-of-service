@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0c">
+  <title>Termos de Serviço — Barboza Works</title>
+  <meta name="description" content="Termos de Serviço oficiais da Barboza Works para seus bots e aplicações do Discord.">
+  <style>
+    :root {
+      --bg:#070709;
+      --panel:#101014;
+      --panel2:#15151b;
+      --text:#f5f5f7;
+      --muted:#a7a7b0;
+      --line:#292930;
+      --accent:#ffffff;
+      --accent2:#bdbdc7;
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0;
+      background:
+        radial-gradient(circle at 50% -10%, rgba(255,255,255,.08), transparent 35%),
+        var(--bg);
+      color:var(--text);
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      line-height:1.7;
+    }
+    a { color:#fff; }
+    .wrap { width:min(1000px, calc(100% - 32px)); margin:auto; }
+    header {
+      min-height:390px;
+      display:flex;
+      align-items:center;
+      border-bottom:1px solid var(--line);
+      background:linear-gradient(180deg, rgba(255,255,255,.035), transparent);
+    }
+    .badge {
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 12px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      color:var(--muted);
+      font-size:13px;
+      letter-spacing:.04em;
+      background:rgba(255,255,255,.025);
+    }
+    .dot { width:7px;height:7px;border-radius:50%;background:#fff;box-shadow:0 0 14px rgba(255,255,255,.7); }
+    h1 {
+      font-size:clamp(42px,8vw,76px);
+      line-height:.98;
+      letter-spacing:-.055em;
+      margin:24px 0 18px;
+    }
+    .hero p { max-width:690px; color:var(--muted); font-size:17px; margin:0; }
+    .updated { margin-top:24px; color:#777781; font-size:13px; }
+    main { padding:55px 0 80px; }
+    .layout { display:grid; grid-template-columns:230px 1fr; gap:48px; }
+    nav {
+      position:sticky; top:24px; align-self:start;
+      padding:18px;
+      border:1px solid var(--line);
+      border-radius:18px;
+      background:rgba(16,16,20,.82);
+      backdrop-filter:blur(16px);
+    }
+    nav strong { display:block; margin-bottom:12px; font-size:13px; }
+    nav a {
+      display:block;
+      padding:8px 0;
+      color:var(--muted);
+      text-decoration:none;
+      font-size:13px;
+    }
+    nav a:hover { color:#fff; }
+    section {
+      padding:0 0 38px;
+      margin-bottom:38px;
+      border-bottom:1px solid var(--line);
+    }
+    section:last-child { border-bottom:0; }
+    h2 { font-size:25px; letter-spacing:-.025em; margin:0 0 13px; }
+    p { color:#c9c9d0; margin:10px 0; }
+    ul { color:#c9c9d0; padding-left:22px; }
+    li { margin:7px 0; }
+    .notice {
+      padding:18px 20px;
+      margin:20px 0;
+      border:1px solid var(--line);
+      border-radius:15px;
+      background:var(--panel2);
+    }
+    .notice strong { color:#fff; }
+    footer {
+      border-top:1px solid var(--line);
+      padding:30px 0 42px;
+      color:#73737d;
+      font-size:13px;
+    }
+    .footerline { display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    @media(max-width:760px) {
+      .layout { grid-template-columns:1fr; }
+      nav { position:relative; top:auto; }
+      header { min-height:330px; }
+      main { padding-top:35px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <span class="badge"><span class="dot"></span> BARBOZA WORKS · TERMOS OFICIAIS</span>
+      <h1>Termos de<br>Serviço.</h1>
+      <p>Estes Termos de Serviço se aplicam aos bots, aplicações e serviços disponibilizados pela Barboza Works, incluindo suas integrações com o Discord.</p>
+      <div class="updated">Última atualização: 22 de setembro de 2026</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap layout">
+      <nav>
+        <strong>Nesta página</strong>
+        <a href="#aceitacao">1. Aceitação</a>
+        <a href="#servicos">2. Serviços</a>
+        <a href="#uso">3. Uso permitido</a>
+        <a href="#proibicoes">4. Proibições</a>
+        <a href="#dados">5. Dados e privacidade</a>
+        <a href="#terceiros">6. Serviços de terceiros</a>
+        <a href="#disponibilidade">7. Disponibilidade</a>
+        <a href="#suspensao">8. Suspensão</a>
+        <a href="#responsabilidade">9. Responsabilidade</a>
+        <a href="#alteracoes">10. Alterações</a>
+        <a href="#contato">11. Contato</a>
+      </nav>
+
+      <article>
+        <section id="aceitacao">
+          <h2>1. Aceitação dos Termos</h2>
+          <p>Ao adicionar, configurar, acessar ou utilizar qualquer bot ou aplicação da Barboza Works, você declara que leu, compreendeu e concorda com estes Termos de Serviço.</p>
+          <p>Se você não concordar com estes termos, não deverá utilizar os serviços da Barboza Works.</p>
+        </section>
+
+        <section id="servicos">
+          <h2>2. Serviços</h2>
+          <p>A Barboza Works desenvolve e disponibiliza bots, automações, sistemas e outras ferramentas para servidores e comunidades, especialmente por meio do Discord.</p>
+          <p>Os recursos podem variar conforme o bot, servidor, plano, configuração ou atualização aplicada ao serviço.</p>
+        </section>
+
+        <section id="uso">
+          <h2>3. Uso permitido</h2>
+          <p>Os serviços devem ser utilizados de forma legítima e compatível com as regras do Discord e com as leis aplicáveis.</p>
+          <ul>
+            <li>Utilize os comandos e recursos para suas finalidades previstas.</li>
+            <li>Mantenha suas credenciais e permissões administrativas protegidas.</li>
+            <li>Configure o bot somente em servidores nos quais você tenha autorização.</li>
+            <li>Respeite os demais usuários e administradores das comunidades.</li>
+          </ul>
+        </section>
+
+        <section id="proibicoes">
+          <h2>4. Proibições</h2>
+          <p>É proibido utilizar os serviços para atividades ilegais, abusivas ou destinadas a prejudicar o funcionamento dos bots, do Discord ou de terceiros.</p>
+          <ul>
+            <li>Tentar explorar vulnerabilidades, invadir ou obter acesso não autorizado.</li>
+            <li>Realizar spam, abuso automatizado ou ações destinadas a causar indisponibilidade.</li>
+            <li>Modificar ou redistribuir componentes protegidos sem autorização.</li>
+            <li>Utilizar os serviços para fraudes, golpes ou outras atividades ilícitas.</li>
+            <li>Contornar limitações técnicas, sistemas de segurança ou controles de acesso.</li>
+          </ul>
+        </section>
+
+        <section id="dados">
+          <h2>5. Dados e privacidade</h2>
+          <p>Dependendo do bot e de suas funcionalidades, determinadas informações podem ser processadas para executar comandos, manter configurações, registrar eventos ou oferecer recursos solicitados pelo servidor.</p>
+          <div class="notice"><strong>Importante:</strong> os administradores de cada servidor também podem definir quais dados o bot poderá acessar dentro das permissões concedidas no Discord.</div>
+          <p>Não solicitamos que usuários forneçam senhas do Discord ou códigos de autenticação diretamente aos bots da Barboza Works. Nunca compartilhe essas informações com terceiros.</p>
+        </section>
+
+        <section id="terceiros">
+          <h2>6. Serviços de terceiros</h2>
+          <p>Os bots dependem do Discord e podem utilizar APIs, hospedagem, bancos de dados ou outros serviços de terceiros. Esses serviços possuem regras e políticas próprias.</p>
+          <p>A disponibilidade ou funcionamento de um serviço de terceiro pode afetar recursos da Barboza Works.</p>
+        </section>
+
+        <section id="disponibilidade">
+          <h2>7. Disponibilidade e manutenção</h2>
+          <p>A Barboza Works busca manter seus serviços funcionando de forma estável, mas não garante disponibilidade ininterrupta.</p>
+          <p>Manutenções, atualizações, falhas técnicas, alterações na API do Discord ou eventos fora do nosso controle podem causar interrupções ou mudanças no funcionamento.</p>
+        </section>
+
+        <section id="suspensao">
+          <h2>8. Suspensão ou encerramento</h2>
+          <p>O acesso a um bot ou serviço poderá ser limitado, suspenso ou encerrado quando houver violação destes termos, uso abusivo, risco à segurança ou necessidade técnica.</p>
+          <p>Administradores de servidores também podem remover os bots da Barboza Works de seus servidores a qualquer momento.</p>
+        </section>
+
+        <section id="responsabilidade">
+          <h2>9. Responsabilidade</h2>
+          <p>O usuário é responsável pela forma como utiliza os bots e pelas permissões concedidas a eles em seus servidores.</p>
+          <p>Na medida permitida pela legislação aplicável, a Barboza Works não se responsabiliza por perdas decorrentes de configurações incorretas feitas pelo usuário, indisponibilidade de plataformas de terceiros, uso indevido dos serviços ou eventos fora de seu controle razoável.</p>
+        </section>
+
+        <section id="alteracoes">
+          <h2>10. Alterações destes Termos</h2>
+          <p>Estes Termos de Serviço podem ser atualizados para refletir mudanças nos serviços, requisitos legais, segurança ou funcionamento dos bots.</p>
+          <p>A versão publicada nesta página será considerada a versão vigente. Recomendamos consultar esta página periodicamente.</p>
+        </section>
+
+        <section id="contato">
+          <h2>11. Contato</h2>
+          <p>Para dúvidas, solicitações ou questões relacionadas aos bots da Barboza Works, entre em contato com a equipe responsável por meio do canal oficial disponibilizado junto ao respectivo bot.</p>
+          <div class="notice">
+            <strong>Barboza Works</strong><br>
+            Bots, automações e soluções para comunidades.
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap footerline">
+      <span>© 2026 Barboza Works. Todos os direitos reservados.</span>
+      <span>Termos de Serviço</span>
+    </div>
+  </footer>
+</body>
+</html>
